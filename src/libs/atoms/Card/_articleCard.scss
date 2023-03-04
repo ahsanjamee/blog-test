@@ -1,0 +1,58 @@
+.card-wrap {
+  background-color: $primary-color;
+  border-radius: 8px;
+  padding: 20px;
+  transition: 0.3s ease-in all;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .card {
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .like-btn {
+    cursor: pointer;
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: $border;
+    border-radius: 8px;
+    transition: 0.3s ease-in all;
+
+    &:hover {
+      background-color: $bg-color;
+      border-color: $bg-color;
+    }
+  }
+  &:hover {
+    background-color: $bg-hover;
+  }
+
+  .font-h2,
+  .font-subtitle,
+  .reaction-wrap {
+    padding-bottom: 20px;
+  }
+
+  .reaction-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+
+  .tag {
+    background-color: $bg-color;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 0 10px 10px 0;
+    font-size: 12px;
+  }
+}

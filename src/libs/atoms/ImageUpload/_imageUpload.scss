@@ -1,0 +1,36 @@
+.dropzone-wrap {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: 20px;
+
+  .image-preview {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.image-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -35px;
+  margin-right: -82px;
+  .button {
+    height: 35px;
+  }
+}
+
+.invalid-feedback {
+  color: red;
+  margin-top: 4px;
+  font-size: 12px;
+  min-height: 18px;
+}
