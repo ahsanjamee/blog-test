@@ -1,0 +1,12 @@
+@import './base';
+@import './variables';
+
+@import '../../libs/atoms/Button/Button';
+@import '../../libs/atoms/Input/Input';
+@import '../../libs/atoms/header/header';
+@import '../../libs/atoms/Card/articleCard';
+@import '../../libs/atoms/ImageUpload/imageUpload';
+
+@import './pages/homepage';
+@import './pages/postDetails';
+@import './pages/dashboard';

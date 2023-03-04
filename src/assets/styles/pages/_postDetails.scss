@@ -1,0 +1,32 @@
+.post-details-wrap {
+  max-width: 800px;
+
+  .post-desc {
+    padding: 30px 0;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .likes {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  .tag {
+    background-color: $primary-color;
+  }
+
+  .font-title {
+    padding-top: 30px;
+  }
+
+  .comment-section {
+    padding: 20px 0;
+
+    .comment {
+      padding: 7px 0;
+      span {
+        margin-right: 10px;
+      }
+    }
+  }
+}
