@@ -132,15 +132,8 @@ body {
 }
 
 .layout-wrap {
-  @media (min-width: 992px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .layout {
     padding: 0 40px 40px 40px;
     max-width: 1600px;
-    width: -webkit-fill-available;
   }
 }
