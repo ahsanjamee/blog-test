@@ -4,7 +4,7 @@ A simple blog project for testing.
 
 ## Installation
 
-Install my-project with yarn
+Run the project with yarn
 
 ```bash
   yarn install
