@@ -132,8 +132,12 @@ body {
 }
 
 .layout-wrap {
-  .layout {
-    padding: 0 40px 40px 40px;
-    max-width: 1600px;
+  .layout-container {
+    width: 100%;
+    .layout {
+      margin: 0 auto;
+      padding: 0 40px 40px 40px;
+      max-width: 1600px;
+    }
   }
 }
