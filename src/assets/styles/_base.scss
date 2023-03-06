@@ -141,5 +141,6 @@ body {
   .layout {
     padding: 0 40px 40px 40px;
     max-width: 1600px;
+    width: -webkit-fill-available;
   }
 }
